@@ -8,6 +8,8 @@ import Efect1 from './components/useEffect';
 
 import Efect2 from './components/useEffect_didUpdate';
 
+import Effect3 from './components/useEffect3_UnWillMount';
+
 import MyComponent from './components/useMemo';
 
 import Calluse from './components/useCallback';
@@ -23,6 +25,8 @@ function App() {
         <Efect1></Efect1>
         <h1>Effect 2</h1>
         <Efect2></Efect2>
+        <h1>Effect 3</h1>
+        <Effect3/>
         <h1>UseMemo</h1>
         <MyComponent></MyComponent>
         <h1>useCallback</h1>
